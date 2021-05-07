@@ -24,4 +24,8 @@ The file called ['kc_house_data.csv'](https://github.com/ekostrov/SeattleHouseMu
 
 # Modeling
 
-## My first goal was to create linear regression model with one independent variable 
+## My first goal was to create linear regression model with one independent variable.
+* I created the correlation matrix and heat map for visualization purpose.
+![Heat Map](images/heat_map.png)
+* 'sqft_living' has the highest correlation of \( 0.71 \) with the 'price'. 
+* I build a model fot the 'price' to be predicted by 'sqft_living'
