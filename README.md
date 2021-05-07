@@ -20,3 +20,8 @@ The file called ['kc_house_data.csv'](https://github.com/ekostrov/SeattleHouseMu
 * I removed 'NaN' values
 * I converted categorical data that represents 'float' data into 'float' type.
 * Some data wrangling was performed during Regression modeling.
+
+
+# Modeling
+
+## My first goal was to create linear regression model with one independent variable 
