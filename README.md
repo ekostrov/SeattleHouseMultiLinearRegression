@@ -1,6 +1,6 @@
 ![title_picture](images/seattle.jpg)
 # Seattle Housing Market With Multi-Linear Regression
-**By Yevgeniy Kostrov
+** By Yevgeniy Kostrov
 ***
 Analysis of Seattle Housing Market with Multi-Linear Regression
 # Overview
@@ -27,5 +27,5 @@ The file called ['kc_house_data.csv'](https://github.com/ekostrov/SeattleHouseMu
 ## My first goal was to create linear regression model with one independent variable.
 * I created the correlation matrix and heat map for visualization purpose.
 ![Heat Map](images/heat_map.png)
-* 'sqft_living' has the highest correlation of \( 0.71 \) with the 'price'. 
+* 'sqft_living' has the highest correlation of  $0.71$ with the 'price'. 
 * I build a model fot the 'price' to be predicted by 'sqft_living'
