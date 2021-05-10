@@ -38,3 +38,10 @@ The file called ['kc_house_data.csv'](https://github.com/ekostrov/SeattleHouseMu
         <p> For better quality, please download the PDF to view it: <a href="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document.pdf">Download PDF</a>.</p>
 </embed>
 </object>
+## Linear Model: Check Statistical Hypothesis of the Regression
+![Linear_Model_Check_Hypothesis](images/stat_hypot_linear_model.png)
+<embed src="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document2.pdf">
+        <p> For better quality, please download the PDF to view it: <a href="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document2.pdf">Download PDF</a>.</p>
+</embed>
+</object>
+
