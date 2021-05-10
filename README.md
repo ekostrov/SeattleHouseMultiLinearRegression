@@ -27,5 +27,20 @@ The file called ['kc_house_data.csv'](https://github.com/ekostrov/SeattleHouseMu
 ## My first goal was to create linear regression model with one independent variable.
 * I created the correlation matrix and heat map for visualization purpose.
 ![Heat Map](images/heat_map.png)
-* 'sqft_living' has the highest correlation of  $0.71$ with the 'price'. 
-* I build a model fot the 'price' to be predicted by 'sqft_living'
+* 'sqft_living' has the highest correlation of  0.71 with the 'price'. 
+* I build a regression model for the 'price' to be predicted by 'sqft_living'
+* I used statistical tests and visualization to check whether the assumptions of the Linear Regression hold.
+* For the details please see the Jupyter Notebook.
+## Conclusions for the Linear Model:
+1. I received the following linear model 
+<br>
+
+<img src="https://latex.codecogs.com/svg.latex? y=11.9524+0.0029\cdot l" title="linear formula" />
+<br>
+
+where 
+
+<img src="https://latex.codecogs.com/svg.latex? y= \ln(\text{price})\quad \text{and}\quad l=\text{sqft\_living}^{0.78}" title="" />
+
+
+
