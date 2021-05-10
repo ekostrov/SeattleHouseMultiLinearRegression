@@ -105,9 +105,11 @@ def evaluate_model(data, target_column='', multicollinearity=False):
     
 def plot_resid(result):
     fig3, ax3 = plt.subplots(figsize=(15,10))
-    ax3.set(xlabel="Predicted Values",
-    ylabel="Residuals (Actual - Predicted)")
+    #ax3.set(xlabel="Predicted Values",
+    #ylabel="Residuals (Actual - Predicted)")
     ax3.scatter(x=result.predict(),y=result.resid, color='blue', alpha=0.2);
+    plt.xlabel("Predicted Values",fontsize=25)
+    plt.ylabel("Residuals (Actual - Predicted)",fontsize=25)
     plt.show()
     
 def rainbow_test(result):
