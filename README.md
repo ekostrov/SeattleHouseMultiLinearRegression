@@ -32,9 +32,9 @@ The file called ['kc_house_data.csv'](https://github.com/ekostrov/SeattleHouseMu
 * I used statistical tests and visualization to check whether the assumptions of the Linear Regression hold.
 * For the details please see the Jupyter Notebook.
 ## Linear Model: Explanations
-![title_picture](https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document.pdf)
 
+![Linear_Model](images/Linear_Model.png)
 <embed src="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document.pdf">Download PDF</a>.</p>
+        <p> For better quality, please download the PDF to view it: <a href="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document.pdf">Download PDF</a>.</p>
 </embed>
 </object>
