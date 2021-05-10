@@ -31,16 +31,10 @@ The file called ['kc_house_data.csv'](https://github.com/ekostrov/SeattleHouseMu
 * I build a regression model for the 'price' to be predicted by 'sqft_living'
 * I used statistical tests and visualization to check whether the assumptions of the Linear Regression hold.
 * For the details please see the Jupyter Notebook.
-## Conclusions for the Linear Model:
-1. I received the following linear model 
-<br>
+## Linear Model: Explanations
+![title_picture](https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document.pdf)
 
-<img src="https://latex.codecogs.com/svg.latex? y=11.9524+0.0029\cdot l" title="linear formula" />
-<br>
-
-where 
-
-<img src="https://latex.codecogs.com/svg.latex? y= \ln(\text{price})\quad \text{and}\quad l=\text{sqft\_living}^{0.78}" title="" />
-
-
-
+<embed src="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document.pdf">Download PDF</a>.</p>
+</embed>
+</object>
