@@ -34,7 +34,9 @@ To understand the change in {\it price} in percents we will use the following fo
 100 \times \left[\frac{y_2-y_1}{y_1} \right] =& 100 \times \left[\frac{y_2}{y_1} - 1\right] = 100\times \left[\frac{ \cancel{e^{11.9524}}\cdot e^{0.0029\cdot x_2^{0.78}}}{\cancel{e^{11.9524}}\cdot e^{0.0029\cdot x_1^{0.78}}} -1 \right] \\
 =& 100 \times \left[ e^{0.0029\left( x_2^{0.78} - x_1^{0.78} \right)} -1 \right]
 \end{align*}
-For example, if the {\it sqft\_living} is \(1000ft\) and we increase it to \(1100\), we will get the change in price of \(100\times \left[e^{0.0029(1100^{0.78}-1000^{0.78})}-1\right] \approx 5.02\% \). In this particular example \(10\%\) change in sqft\_living starting from \(x_1 = 1000ft\) forces \(5.02\%\) change in price.
+For example, if the {\it sqft\_living} is \(1000ft\) and we increase it to \(1100\), we will get the change in price of
+ \[100\times \left[e^{0.0029(1100^{0.78}-1000^{0.78})}-1\right] \approx 5.02\%. \]
+In this particular example \(10\%\) change in sqft\_living starting from \(x_1 = 1000ft\) forces \(5.02\%\) change in price.
 \subsection*{\textbf{\(R^2 \)}}
 The model has \(R^2\approx 0.45\).  This means that our model explains about 45\% of the variation by using {\it sqft\_living} as independent variable.
 \subsection*{ANOVA}
