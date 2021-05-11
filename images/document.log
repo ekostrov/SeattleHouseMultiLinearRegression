@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  10 MAY 2021 16:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  11 MAY 2021 13:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -186,11 +186,11 @@ LaTeX Font Info:    ... okay on input line 20.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(7.22743pt, 563.70512pt, 7.22743pt)
-* v-part:(T,H,B)=(7.22743pt, 346.89513pt, 7.22743pt)
+* v-part:(T,H,B)=(7.22743pt, 491.43513pt, 7.22743pt)
 * \paperwidth=578.15999pt
-* \paperheight=361.34999pt
+* \paperheight=505.89pt
 * \textwidth=563.70512pt
-* \textheight=346.89513pt
+* \textheight=491.43513pt
 * \oddsidemargin=-65.04256pt
 * \evensidemargin=-65.04256pt
 * \topmargin=-102.04256pt
@@ -274,7 +274,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (14.55424pt too wide) in paragraph at lines 35--38
+Overfull \hbox (14.55424pt too wide) in paragraph at lines 36--38
 \OT1/cmr/m/n/10 For ex-am-ple, if the \OT1/cmr/m/it/10 sqft[]living \OT1/cmr/m/
 n/10 is $1000\OML/cmm/m/it/10 ft$ \OT1/cmr/m/n/10 and we in-crease it to $1100$
 , we will get the change in price of $100 \OMS/cmsy/m/n/10 ^^B [] ^^Y
@@ -285,30 +285,32 @@ n/10 is $1000\OML/cmm/m/it/10 ft$ \OT1/cmr/m/n/10 and we in-crease it to $1100$
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./document.aux) ) 
 Here is how much of TeX's memory you used:
- 3323 strings out of 480608
- 46080 string characters out of 5903631
- 293003 words of memory out of 5000000
- 19179 multiletter control sequences out of 15000+600000
- 534988 words of font info for 35 fonts, out of 8000000 for 9000
+ 3353 strings out of 480608
+ 46404 string characters out of 5903631
+ 293979 words of memory out of 5000000
+ 19200 multiletter control sequences out of 15000+600000
+ 540248 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,20n,31p,501b,198s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
-fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><
-/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.
-pfb>
-Output written on document.pdf (1 page, 104736 bytes).
+ts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.
+pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></
+usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr
+/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/
+local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
+Output written on document.pdf (1 page, 139332 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 68 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
