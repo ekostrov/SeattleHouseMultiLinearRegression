@@ -95,6 +95,9 @@ This project will use the data about Kings County's(Seattle, WA) housing market.
 </embed>
 ## Multiple Linear Model: Explanations
 ## Model 
+<math>
+x^2
+</math>
 ln(price) =10.2082 + 0.3618 · waterfront − 0.0160 · bedrooms − 0.0153 · bathrooms + 0.1400 · sqft living0.3 +0.0088 · floors + 0.1494 · view$^0.5$ + 0.0105 · grade2 + 0.1187 · ln (sqft living15)
 ![Linear_Model](images/document4.png)
 <embed src="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document4.png">
