@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  14 MAY 2021 17:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  14 MAY 2021 17:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -186,11 +186,11 @@ LaTeX Font Info:    ... okay on input line 20.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(7.22743pt, 708.24513pt, 7.22743pt)
-* v-part:(T,H,B)=(7.22743pt, 1178.00012pt, 7.22743pt)
+* v-part:(T,H,B)=(7.22743pt, 151.76634pt, 7.22743pt)
 * \paperwidth=722.7pt
-* \paperheight=1192.45499pt
+* \paperheight=166.2212pt
 * \textwidth=708.24513pt
-* \textheight=1178.00012pt
+* \textheight=151.76634pt
 * \oddsidemargin=-65.04256pt
 * \evensidemargin=-65.04256pt
 * \topmargin=-102.04256pt
@@ -262,13 +262,13 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -278,11 +278,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./docu
 ment4_b.aux) ) 
 Here is how much of TeX's memory you used:
- 3354 strings out of 480608
- 46442 string characters out of 5903631
- 288997 words of memory out of 5000000
- 19200 multiletter control sequences out of 15000+600000
- 540248 words of font info for 55 fonts, out of 8000000 for 9000
+ 3352 strings out of 480608
+ 46409 string characters out of 5903631
+ 288974 words of memory out of 5000000
+ 19198 multiletter control sequences out of 15000+600000
+ 539643 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,4n,31p,448b,183s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/c
@@ -295,7 +295,7 @@ r10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
 b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 
-Output written on document4_b.pdf (1 page, 90586 bytes).
+Output written on document4_b.pdf (1 page, 89708 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream
