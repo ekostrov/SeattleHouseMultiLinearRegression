@@ -5,13 +5,17 @@
 \usepackage{sectsty}
 \pagenumbering{gobble}
 %sectionfont{\centering}
-\geometry{
-	letterpaper,
-	left= 0.1in,
+%\geometry{
+%	letterpaper,
+%	left= 0.1in,
+%	right=0.1in,
+%	top=0.1in,
+%	bottom=0.1in
+%}
+\geometry{papersize={10in,11in}, left= 0.1in,
 	right=0.1in,
 	top=0.1in,
-	bottom=0.1in
-}
+	bottom=0.1in}
 \usepackage{amssymb,amsmath}
 \begin{document}
 \section*{Check Statistical Hypotheses of the Regression}
@@ -50,7 +54,7 @@ I look at at the Residual-vs-Predicted values plot first.
 Now, I will use Breusch-Pagan Test:\\
 \textbf{The Null Hypothesis:  Homoscedasticity is present,\\
 	The Alternative Hypothesis:  Homoscedasticity is not present (i.e. heteroscedasticity exists).}\\
-Our p-value for this model is \(p=0.05 \ge 0.05 = \alpha\). Thus, we don't have enough evidence to reject the Null Hypothesis and we conclude that Breusch-Pagan Test  tells us, that we have don't have heteroscedasticity.\\
+Our p-value for this model is \(p=0.12609 \ge 0.05 = \alpha\). Thus, we don't have enough evidence to reject the Null Hypothesis and we conclude that Breusch-Pagan Test  tells us, that we have don't have heteroscedasticity.\\
 \textbf{Conclusion:} From the Residual-vs-Predicted values plot and  Breusch-Pagan Test, I conclude that we don't have Heteroscedasticity in our model.
 \subsection*{Overall Conclusion:} I conclude that our model satisfies statistical assumptions for the regression model.
 \end{document}

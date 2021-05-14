@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  10 MAY 2021 21:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  13 MAY 2021 20:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -162,34 +162,34 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 (./document2.aux)
 \openout1 = `document2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: letterpaper
+* paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(7.22743pt, 599.84013pt, 7.22743pt)
+* h-part:(L,W,R)=(7.22743pt, 708.24513pt, 7.22743pt)
 * v-part:(T,H,B)=(7.22743pt, 780.51512pt, 7.22743pt)
-* \paperwidth=614.295pt
+* \paperwidth=722.7pt
 * \paperheight=794.96999pt
-* \textwidth=599.84013pt
+* \textwidth=708.24513pt
 * \textheight=780.51512pt
 * \oddsidemargin=-65.04256pt
 * \evensidemargin=-65.04256pt
@@ -262,13 +262,13 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -277,25 +277,25 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <qq_plot_linear_model.png, id=1, 395.4775pt x 279.0425pt>
 File: qq_plot_linear_model.png Graphic file (type png)
 <use qq_plot_linear_model.png>
-Package pdftex.def Info: qq_plot_linear_model.png  used on input line 27.
+Package pdftex.def Info: qq_plot_linear_model.png  used on input line 31.
 (pdftex.def)             Requested size: 144.53816pt x 144.54515pt.
 <dist_plot_resid_linear_model.png, id=3, 353.32pt x 353.32pt>
 File: dist_plot_resid_linear_model.png Graphic file (type png)
 <use dist_plot_resid_linear_model.png>
 Package pdftex.def Info: dist_plot_resid_linear_model.png  used on input line 3
-3.
+7.
 (pdftex.def)             Requested size: 144.53867pt x 144.53867pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--41
+Underfull \hbox (badness 10000) in paragraph at lines 27--45
 
  []
 
-<residual_plot_linear_model.png, id=4, 913.4125pt x 605.26125pt>
+<residual_plot_linear_model.png, id=4, 941.5175pt x 614.295pt>
 File: residual_plot_linear_model.png Graphic file (type png)
 <use residual_plot_linear_model.png>
-Package pdftex.def Info: residual_plot_linear_model.png  used on input line 48.
+Package pdftex.def Info: residual_plot_linear_model.png  used on input line 52.
 
-(pdftex.def)             Requested size: 216.81pt x 143.65868pt.
+(pdftex.def)             Requested size: 216.81pt x 141.4536pt.
 [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./qq_pl
@@ -304,7 +304,7 @@ ar_model.png>] (./document2.aux) )
 Here is how much of TeX's memory you used:
  3347 strings out of 480608
  46772 string characters out of 5903631
- 291992 words of memory out of 5000000
+ 291977 words of memory out of 5000000
  19201 multiletter control sequences out of 15000+600000
  535555 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -315,7 +315,7 @@ e1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type
 /public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb>
-Output written on document2.pdf (1 page, 312951 bytes).
+Output written on document2.pdf (1 page, 299211 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream

@@ -13,7 +13,7 @@ from patsy import dmatrices
 from statsmodels.stats.diagnostic import het_breuschpagan
 from statsmodels.compat import lzip
 # End of Imports
-
+M=60
 
 def clean_sqft_basement(sqft):
     if sqft =='?':
@@ -21,7 +21,14 @@ def clean_sqft_basement(sqft):
     return float(sqft)
 
 def print_column_info(column):
-    print(f"Unique values:\n {column.unique()}")
+    print("^"*50)
+    print(column.name)
+    print("^"*50)
+    number_of_unique = len(column.unique())
+    if number_of_unique > 10:
+        print(f"Column {column.name} has {number_of_unique} unique values")
+    else:
+        print(f"Unique values:\n {column.unique()}")
     print(f"Value_counts:\n {column.value_counts()}")
     print(f"Number of Null values:\n {column.isnull().sum()}")
 
@@ -57,39 +64,43 @@ def evaluate_model(data, target_column='', multicollinearity=False):
     print("\t","-"*M)
     print("\t CHECK LINEARITY ASSUMPTIONS:")
     print("\t","-"*M)
+    plot_resid(result)
+    print("\t","-"*M)
+    print("\t","-"*M)
     rainbow_test(result)
     print("\t","-"*M)
     print("\t CHECK NORMALITY ASSUMPTIONS:")
     print("\t","-"*M)
     print("\tQQ-PLOT\n")
-    stats.probplot(result.resid, dist='norm',plot=pylab)
-    pylab.show()
+    qq_plot(result,figsize=(15,10))
     print("\tDISTRIBUTIONS PLOT OF RESIDUALS\n")
-    ax = sns.displot(result.resid,kde=True)
-    plt.show()
+    dist_plot(result,title="DISTRIBUTIONS PLOT OF RESIDUALS",figsize=(15,10))
+    #ax = sns.displot(result.resid,kde=True)
+    #plt.show()
     #shapiro_wilk(result)
     D_Agostino(result)
-    
-    print("\t","-"*M)
+    print("\t","*"*M)
     print("\t CHECK IF WE HAVE HETEROSCEDASTICTY IN THE MODEL :")
-    print("\t","-"*M)
-    print("%"*M)
-    plot_resid(result)
+    print("\t","*"*M)
+    plot_resid(result,figsize=(15,10))
     print("%"*M)
     h_b_test(result)
     print("\t","-"*M)
     if multicollinearity:
-        print("\t","-"*M)
+        print("\t","*"*M)
         print("\t CHECK MULTICOLLINEARITY ASSUMPTIONS:")
-        print("\t","-"*M)
+        print("\t","*"*M)
         new_df = data.drop(target_column, axis=1)
         if 'id' in new_df.keys():
             new_df = new_df.drop('id', axis=1)
+        heat_map_plot(new_df,figsize=(15,10))
         corr = new_df.corr()
-        sns.heatmap(corr)
-        plt.show()
-        print("\n","*"*M,"\nCORRELATON MATRIX\n", corr)
+        #sns.heatmap(corr)
+        #plt.show()
         print("\n","*"*M,"\n")
+        print("\t","CORRELATON MATRIX")
+        print("\n","*"*M,"\n")
+        print(corr)
         vif_data = pd.DataFrame()
         vif_data["feature"] = data.columns
         # calculating VIF for each feature
@@ -98,16 +109,41 @@ def evaluate_model(data, target_column='', multicollinearity=False):
         vif = pd.DataFrame()
         vif['VIF'] = [variance_inflation_factor(X.values, i) for i in range(X.shape[1])]
         vif['variable'] = X.columns
+        print("\n","*"*M,"\n")
+        print("\t","VARIANCE INFLATION FACTORS")
+        print("\n","*"*M,"\n")
         print(vif)
+        print("\n","*"*M,"\n")
         
+        
+        
+        
+def heat_map_plot(data,title="Heat Map",figsize=(8,6)):
+    fig, ax = plt.subplots(figsize=figsize)
+    corr = data.corr()
+    heat = sns.heatmap(corr,ax=ax);
+    heat.set_xticklabels(heat.get_xticklabels(), rotation=70)
+    plt.title(title)
+    plt.show()
 
-        
+def qq_plot(result,figsize=(8,6)):
+    fig, ax = plt.subplots(figsize=figsize)
+    stats.probplot(result.resid, dist='norm',plot=plt)
+    plt.title("QQ-Plot",fontsize=25)
+    plt.show()
+
+def dist_plot(result,title="Distribution Plot",figsize=(8,6)):
+    ax = sns.displot(result.resid,kde=True).set(title=title)
+    ax.fig.set_figwidth(figsize[0])
+    ax.fig.set_figheight(figsize[1])
+    plt.show()
     
-def plot_resid(result):
-    fig3, ax3 = plt.subplots(figsize=(15,10))
+def plot_resid(result,figsize=(8,6)):
+    fig3, ax3 = plt.subplots(figsize=figsize)
     #ax3.set(xlabel="Predicted Values",
     #ylabel="Residuals (Actual - Predicted)")
     ax3.scatter(x=result.predict(),y=result.resid, color='blue', alpha=0.2);
+    plt.title("Residuals-vs-Predicted",fontsize=25)
     plt.xlabel("Predicted Values",fontsize=25)
     plt.ylabel("Residuals (Actual - Predicted)",fontsize=25)
     plt.show()
@@ -161,14 +197,16 @@ def D_Agostino(result):
         result = model.fit() 
     Performs D'Agostino Test and prints results
     """
-    print("D_Agostino Test for Normality:")
+    print("\t","-"*M)
+    print("\tD_Agostino Test for Normality:")
+    print("\t","-"*M)
     stat, p = normaltest(result.resid)
-    print(f'stat={stat:.3f}, p={p:.3f}')
+    print("\t",f'stat={stat:.3f}, p={p:.3f}')
     
     if p > 0.05:
-        print('Probability is Normal')
+        print('\tProbability is Normal')
     else:
-        print('Probability is not Normal')
+        print('\tProbability is not Normal')
         
 def convert_number_to_month(number):
     look_up = {'1': 'Jan', '2': 'Feb',

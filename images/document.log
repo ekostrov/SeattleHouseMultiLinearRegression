@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  11 MAY 2021 13:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  13 MAY 2021 20:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -185,11 +185,11 @@ LaTeX Font Info:    ... okay on input line 20.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(7.22743pt, 563.70512pt, 7.22743pt)
+* h-part:(L,W,R)=(7.22743pt, 708.24513pt, 7.22743pt)
 * v-part:(T,H,B)=(7.22743pt, 491.43513pt, 7.22743pt)
-* \paperwidth=578.15999pt
+* \paperwidth=722.7pt
 * \paperheight=505.89pt
-* \textwidth=563.70512pt
+* \textwidth=708.24513pt
 * \textheight=491.43513pt
 * \oddsidemargin=-65.04256pt
 * \evensidemargin=-65.04256pt
@@ -280,7 +280,7 @@ ment.aux) )
 Here is how much of TeX's memory you used:
  3353 strings out of 480608
  46404 string characters out of 5903631
- 293979 words of memory out of 5000000
+ 293949 words of memory out of 5000000
  19200 multiletter control sequences out of 15000+600000
  540248 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -300,7 +300,7 @@ al/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/
 texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
 exlive/2020/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on document.pdf (1 page, 139312 bytes).
+Output written on document.pdf (1 page, 139276 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
