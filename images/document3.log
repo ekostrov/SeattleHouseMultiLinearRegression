@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  14 MAY 2021 17:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  14 MAY 2021 17:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**document2.tex
-(./document2.tex
+**document3.tex
+(./document3.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06>
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count167
 \c@section=\count168
@@ -159,8 +159,8 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count190
 \l__pdf_internal_box=\box47
 )
-(./document2.aux)
-\openout1 = `document2.aux'.
+(./document3.aux)
+\openout1 = `document3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
@@ -186,22 +186,22 @@ LaTeX Font Info:    ... okay on input line 20.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(7.22743pt, 708.24513pt, 7.22743pt)
-* v-part:(T,H,B)=(7.22743pt, 852.78513pt, 7.22743pt)
+* v-part:(T,H,B)=(7.22743pt, 816.65013pt, 7.22743pt)
 * \paperwidth=722.7pt
-* \paperheight=867.23999pt
+* \paperheight=831.105pt
 * \textwidth=708.24513pt
-* \textheight=852.78513pt
+* \textheight=816.65013pt
 * \oddsidemargin=-65.04256pt
 * \evensidemargin=-65.04256pt
 * \topmargin=-102.04256pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=44.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -274,52 +274,52 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<qq_plot_linear_model.png, id=1, 395.4775pt x 279.0425pt>
-File: qq_plot_linear_model.png Graphic file (type png)
-<use qq_plot_linear_model.png>
-Package pdftex.def Info: qq_plot_linear_model.png  used on input line 33.
-(pdftex.def)             Requested size: 144.53816pt x 144.54515pt.
-<dist_plot_resid_linear_model.png, id=3, 353.32pt x 353.32pt>
-File: dist_plot_resid_linear_model.png Graphic file (type png)
-<use dist_plot_resid_linear_model.png>
-Package pdftex.def Info: dist_plot_resid_linear_model.png  used on input line 3
-9.
-(pdftex.def)             Requested size: 144.53867pt x 144.53867pt.
+<qq_plot_multi_model.png, id=1, 1702.36pt x 1151.30125pt>
+File: qq_plot_multi_model.png Graphic file (type png)
+<use qq_plot_multi_model.png>
+Package pdftex.def Info: qq_plot_multi_model.png  used on input line 36.
+(pdftex.def)             Requested size: 216.79475pt x 144.52716pt.
+<dist_plot_resid_multi_model.png, id=3, 1300.86pt x 1023.825pt>
+File: dist_plot_resid_multi_model.png Graphic file (type png)
+<use dist_plot_resid_multi_model.png>
+Package pdftex.def Info: dist_plot_resid_multi_model.png  used on input line 42
+.
+(pdftex.def)             Requested size: 216.79623pt x 144.53743pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--47
+Underfull \hbox (badness 10000) in paragraph at lines 32--50
 
  []
 
-<residual_plot_linear_model.png, id=4, 941.5175pt x 614.295pt>
-File: residual_plot_linear_model.png Graphic file (type png)
-<use residual_plot_linear_model.png>
-Package pdftex.def Info: residual_plot_linear_model.png  used on input line 54.
-
-(pdftex.def)             Requested size: 216.81pt x 141.4536pt.
+<residual_plot_multi_model.png, id=4, 1711.39375pt x 1162.3425pt>
+File: residual_plot_multi_model.png Graphic file (type png)
+<use residual_plot_multi_model.png>
+Package pdftex.def Info: residual_plot_multi_model.png  used on input line 57.
+(pdftex.def)             Requested size: 216.81pt x 147.2434pt.
 [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./qq_pl
-ot_linear_model.png> <./dist_plot_resid_linear_model.png> <./residual_plot_line
-ar_model.png>] [2] (./document2.aux) ) 
+ot_multi_model.png> <./dist_plot_resid_multi_model.png> <./residual_plot_multi_
+model.png>] (./document3.aux) ) 
 Here is how much of TeX's memory you used:
- 3363 strings out of 480608
- 46960 string characters out of 5903631
- 291998 words of memory out of 5000000
- 19211 multiletter control sequences out of 15000+600000
- 538501 words of font info for 47 fonts, out of 8000000 for 9000
+ 3348 strings out of 480608
+ 46769 string characters out of 5903631
+ 292967 words of memory out of 5000000
+ 19202 multiletter control sequences out of 15000+600000
+ 535555 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,6n,31p,329b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2020/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb>
-Output written on document2.pdf (2 pages, 300260 bytes).
+ 34i,12n,31p,329b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2020/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb>
+Output written on document3.pdf (1 page, 1063970 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 43 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -68,18 +68,34 @@ This project will use the data about Kings County's(Seattle, WA) housing market.
 * I build a regression model for the 'price' to be predicted by 'sqft_living'
 * I used statistical tests and visualization to check whether the assumptions of the Linear Regression hold.
 * For the details please see the Jupyter Notebook.
-## Linear Model: Explanations
-
-![Linear_Model](images/Linear_Model.png)
-<embed src="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document.pdf">
-        <p> For better quality, please download the PDF to view it: <a href="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document.pdf">Download PDF</a>.</p>
-</embed>
-</object>
 ## Linear Model: Check Statistical Hypothesis of the Regression
 ![Linear_Model_Check_Hypothesis](images/stat_hypot_linear_model.png)
-<embed src="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document2.pdf">
+<embed src="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document2.png">
         <p> For better quality, please download the PDF to view it: <a href="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document2.pdf">Download PDF</a>.</p>
 </embed>
 </object>
-![Model View Controller](images/document.pdf)
+## Linear Model: Explanations
+![Linear_Model](images/Linear_Model.png)
+<embed src="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document.png">
+        <p> For better quality, please download the PDF to view it: <a href="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document.pdf">Download PDF</a>.</p>
+</embed>
+</object>
+***
+# Multiple Regression Model
+***
 
+## I included many explanatory variables and build Multiple Regression Model.
+> ### * Based on the Heat Map, I used the columns that have the highest correlation with the *price* column.
+>### * I went through few stages in the process of building the model, until most statistical assumptions were closed to being satisfied.
+## Here  is the model that I have:
+## Multiple Linear Model: Check Statistical Hypothesis of the Regression
+![Multi_Model_Check_Hypothesis](images/document3.png)
+<embed src="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document2.pdf">
+        <p> For better quality, please download the PDF to view it: <a href="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document2.pdf">Download PDF</a>.</p>
+</embed>
+## Multiple Linear Model: Explanations
+![Linear_Model](images/Linear_Model.png)
+<embed src="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document.png">
+        <p> For better quality, please download the PDF to view it: <a href="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document.pdf">Download PDF</a>.</p>
+</embed>
+</object>

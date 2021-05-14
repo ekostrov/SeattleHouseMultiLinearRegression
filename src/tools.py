@@ -47,8 +47,16 @@ def formula(df, target):
 def evaluate_model(data, target_column='', multicollinearity=False):
     """
     Overall Evaluation of the Model
+    * Creates the Model
+    * Prints out the summary of the model from stats module
+    * Evaluates the model by:
+    1. Checking linearity assumptions.<br>
+    2. Checking normality assumptions.<br>
+    3. Checking if we have heteroscedasticity in the model.<br>
+    4. If the model has more than one variable, can check for Multicollinearity if multicollinearity is True.
     data = Pandas Data Frame
     target_column = Dependent Variable
+    multicollinearity = boolean
     """
     f = formula(data, target_column)
     model = sm.OLS.from_formula(f,data=data)
