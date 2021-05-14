@@ -70,13 +70,13 @@ This project will use the data about Kings County's(Seattle, WA) housing market.
 * For the details please see the Jupyter Notebook.
 ## Linear Model: Check Statistical Hypothesis of the Regression
 ![Linear_Model_Check_Hypothesis](images/stat_hypot_linear_model.png)
-<embed src="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document2.png">
+<embed src="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document2.pdf">
         <p> For better quality, please download the PDF to view it: <a href="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document2.pdf">Download PDF</a>.</p>
 </embed>
 </object>
 ## Linear Model: Explanations
 ![Linear_Model](images/Linear_Model.png)
-<embed src="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document.png">
+<embed src="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document.pdf">
         <p> For better quality, please download the PDF to view it: <a href="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document.pdf">Download PDF</a>.</p>
 </embed>
 </object>
@@ -90,12 +90,12 @@ This project will use the data about Kings County's(Seattle, WA) housing market.
 ## Here  is the model that I have:
 ## Multiple Linear Model: Check Statistical Hypothesis of the Regression
 ![Multi_Model_Check_Hypothesis](images/document3.png)
-<embed src="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document2.pdf">
-        <p> For better quality, please download the PDF to view it: <a href="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document2.pdf">Download PDF</a>.</p>
+<embed src="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document3.pdf">
+        <p> For better quality, please download the PDF to view it: <a href="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document3.pdf">Download PDF</a>.</p>
 </embed>
 ## Multiple Linear Model: Explanations
-![Linear_Model](images/Linear_Model.png)
-<embed src="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document.png">
-        <p> For better quality, please download the PDF to view it: <a href="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document.pdf">Download PDF</a>.</p>
+![Linear_Model](images/document4.png)
+<embed src="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document4.pdf">
+        <p> For better quality, please download the PDF to view it: <a href="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document4.pdf">Download PDF</a>.</p>
 </embed>
 </object>
