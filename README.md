@@ -10,10 +10,10 @@ about houses sold in Kings County (Seattle, WA).
 During the analysis:
 1. I will perform necessary data wrangling first.
 2. I will build a Linear Regression Model with one explanatory variable.
-> * I will check statistical asumptions for the linear regression model
+> * I will check statistical assumptions for the linear regression model
 > * I will explain the model, including intercept, coefficient for the explanatory variable, $R^2$, and *ANOVA*
-3. I will build a Multiple Linear Regression Model with many explanantory variables.
-> * I will check statistical asumptions for the multiple linear regression model
+3. I will build a Multiple Linear Regression Model with many explanatory variables.
+> * I will check statistical assumptions for the multiple linear regression model
 > * I will explain the model, including intercept, coefficients for the explanatory variables, $R^2$, and *ANOVA*
 
 # Business Problem
@@ -26,9 +26,7 @@ I will, also, check the necessary statistical assumptions for the regression mod
 and explain the model's parameters. 
 
 # Data Description
-The file called ['kc_house_data.csv'](https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/data/kc_house_data.csv) holds the data for this project.
-
-This project will use the data about Kings County's(Seattle, WA) housing market. The data file contains the following columns:
+The file called ['kc_house_data.csv'](https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/data/kc_house_data.csv) holds the data for this project.This project will use this data about Kings County's(Seattle, WA) housing market to create Linear Regression Model. The data file contains the following columns:
 #### Column Names and descriptions for Kings County Data Set
 * **id** - unique identified for a house
 * **dateDate** - house was sold
@@ -66,7 +64,7 @@ This project will use the data about Kings County's(Seattle, WA) housing market.
 ![Heat Map](images/heat_map.png)
 * 'sqft_living' has the highest correlation of  0.71 with the 'price'. 
 * I build a regression model for the 'price' to be predicted by 'sqft_living'
-* I used statistical tests and visualization to check whether the assumptions of the Linear Regression hold.
+* I used statistical tests and visualizations to check whether the assumptions of the Linear Regression hold.
 * For the details please see the Jupyter Notebook.
 ## Linear Model: Check Statistical Hypothesis of the Regression
 ![Linear_Model_Check_Hypothesis](images/stat_hypot_linear_model.png)
