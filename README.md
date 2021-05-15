@@ -63,11 +63,12 @@ The file called ['kc_house_data.csv'](https://github.com/ekostrov/SeattleHouseMu
 * I created the correlation matrix and heat map for visualization purpose.
 ![Heat Map](images/heat_map.png)
 * 'sqft_living' has the highest correlation of  0.71 with the 'price'. 
-* I build a regression model for the 'price' to be predicted by 'sqft_living'
+* I build a regression model for the 'price' to be predicted by 'sqft_living'. 
+* The model is:  ln(*price*) = 11.9524 + 0.0029 * *sqft_living*<sup>o.78<sup>  
 * I used statistical tests and visualizations to check whether the assumptions of the Linear Regression hold.
 * For the details please see the Jupyter Notebook.
 ## Linear Model: Check Statistical Hypothesis of the Regression
-![Linear_Model_Check_Hypothesis](images/stat_hypot_linear_model.png)
+![Linear_Model_Check_Hypothesis](images/document2.png)
 <embed src="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document2.png">
         <p> For better quality, please download the PDF to view it: <a href="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document2.pdf">Download PDF</a>.</p>
 </embed>
