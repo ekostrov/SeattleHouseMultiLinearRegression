@@ -104,3 +104,47 @@ This project will use the data about Kings County's(Seattle, WA) housing market.
         <p> For better quality, please download the PDF to view it: <a href="https://github.com/ekostrov/SeattleHouseMultiLinearRegression/blob/main/images/document4_b.pdf">Download PDF</a>.</p>
 </embed>
 </object>
+
+
+# Conclusions
+## Data Modeling
+***
+I used the following steps:
+
+* Dropped 2376 rows where *waterfront* is NaN.
+* Dropped 63 rows where *view* is NaN.
+* Dropped 3842 rows where *yr_renovated* is NaN.
+
+* I converted *sqft_basement*  string format into float.
+* During modeling dropped outliers when necessary.
+***
+# Modeling
+## I built two models:
+> * Linear Regression Model
+> * Multiple Linear Regression Model
+## I checked whether the models satisfy statistical assumptions of Linear Regression
+## I explained the models.
+## Models can be used for interpolation given the data about a particular property. 
+
+## Ways to improve the analysis
+***
+* More data wrangling is need to remove *heteroscedasticity* from the Multiple Linear Regression Model.
+* Include more explanatory variables.
+* Scrape webpages for more data such as school grade, crime rate, etc. for properties. 
+***
+
+Please review my full analysis in [our Jupyter Notebook](JupyterNotebooks/Jupyter.ipynb) or our [presentation](presentation.pdf).
+
+For any additional questions, please contact **Yevgeniy (Gene) Kostrov & ekostrov@yahoo.com
+
+## Repository Structure
+
+Describe the structure of your repository and its contents, for example:
+
+```
+├── README.md                           <- The top-level README for reviewers of this project
+├── JupyterNotebooks/Jupyter.ipynb      <- Narrative documentation of analysis in Jupyter notebook
+├── presentation.pdf                    <- PDF version of project presentation
+├── data                                <- Both sourced externally 
+└── images                              <- Both sourced externally and generated from code
+```
