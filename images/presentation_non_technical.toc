@@ -1,0 +1,16 @@
+\beamer@sectionintoc {1}{Overview}{3}{0}{1}
+\beamer@sectionintoc {2}{Business Problem}{10}{0}{2}
+\beamer@sectionintoc {3}{Data Description}{15}{0}{3}
+\beamer@sectionintoc {4}{My Python Package}{18}{0}{4}
+\beamer@sectionintoc {5}{Modeling}{24}{0}{5}
+\beamer@sectionintoc {6}{Linear Model}{27}{0}{6}
+\beamer@subsectionintoc {6}{1}{Building the Linear Model}{27}{0}{6}
+\beamer@subsectionintoc {6}{2}{Checking Statistical Hypotheses}{30}{0}{6}
+\beamer@subsectionintoc {6}{3}{Explanation of the Model}{31}{0}{6}
+\beamer@sectionintoc {7}{Multiple Linear Model}{38}{0}{7}
+\beamer@subsectionintoc {7}{1}{Model}{40}{0}{7}
+\beamer@subsectionintoc {7}{3}{Explanation of the Model}{44}{0}{7}
+\beamer@sectionintoc {8}{Conclusions}{61}{0}{8}
+\beamer@subsectionintoc {8}{1}{Data Modeling}{61}{0}{8}
+\beamer@subsectionintoc {8}{2}{Modeling}{62}{0}{8}
+\beamer@subsectionintoc {8}{3}{Ways to improve the analysis}{63}{0}{8}
