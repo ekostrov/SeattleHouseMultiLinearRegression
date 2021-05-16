@@ -29,10 +29,135 @@
 \headcommand {\sectionentry {5}{Modeling}{24}{Modeling}{0}}
 \headcommand {\slideentry {5}{0}{1}{24/26}{}{0}}
 \headcommand {\beamer@framepages {24}{26}}
-\headcommand {\slideentry {5}{0}{2}{27/29}{}{0}}
+\headcommand {\beamer@sectionpages {24}{26}}
+\headcommand {\beamer@subsectionpages {24}{26}}
+\headcommand {\sectionentry {6}{Linear Model}{27}{Linear Model}{0}}
+\headcommand {\beamer@subsectionpages {27}{26}}
+\headcommand {\beamer@subsectionentry {0}{6}{1}{27}{Building the Linear Model}}
+\headcommand {\slideentry {6}{1}{1}{27/29}{Building the Linear Model}{0}}
 \headcommand {\beamer@framepages {27}{29}}
-\headcommand {\beamer@partpages {1}{29}}
-\headcommand {\beamer@subsectionpages {24}{29}}
-\headcommand {\beamer@sectionpages {24}{29}}
-\headcommand {\beamer@documentpages {29}}
-\headcommand {\gdef \inserttotalframenumber {9}}
+\headcommand {\beamer@subsectionpages {27}{29}}
+\headcommand {\beamer@subsectionentry {0}{6}{2}{30}{Checking Statistical Hypotheses}}
+\headcommand {\slideentry {6}{2}{1}{30/32}{Checking Statistical Hypotheses}{0}}
+\headcommand {\beamer@framepages {30}{32}}
+\headcommand {\slideentry {6}{2}{2}{33/33}{Checking Statistical Hypotheses}{0}}
+\headcommand {\beamer@framepages {33}{33}}
+\headcommand {\slideentry {6}{2}{3}{34/34}{Checking Statistical Hypotheses}{0}}
+\headcommand {\beamer@framepages {34}{34}}
+\headcommand {\slideentry {6}{2}{4}{35/38}{Checking Statistical Hypotheses}{0}}
+\headcommand {\beamer@framepages {35}{38}}
+\headcommand {\slideentry {6}{2}{5}{39/40}{Checking Statistical Hypotheses}{0}}
+\headcommand {\beamer@framepages {39}{40}}
+\headcommand {\slideentry {6}{2}{6}{41/41}{Checking Statistical Hypotheses}{0}}
+\headcommand {\beamer@framepages {41}{41}}
+\headcommand {\slideentry {6}{2}{7}{42/44}{Checking Statistical Hypotheses}{0}}
+\headcommand {\beamer@framepages {42}{44}}
+\headcommand {\slideentry {6}{2}{8}{45/45}{Checking Statistical Hypotheses}{0}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\slideentry {6}{2}{9}{46/46}{Checking Statistical Hypotheses}{0}}
+\headcommand {\beamer@framepages {46}{46}}
+\headcommand {\beamer@subsectionpages {30}{46}}
+\headcommand {\beamer@subsectionentry {0}{6}{3}{47}{Explanation of the Model}}
+\headcommand {\slideentry {6}{3}{1}{47/47}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {47}{47}}
+\headcommand {\slideentry {6}{3}{2}{48/49}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {48}{49}}
+\headcommand {\slideentry {6}{3}{3}{50/51}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {50}{51}}
+\headcommand {\slideentry {6}{3}{4}{52/53}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {52}{53}}
+\headcommand {\slideentry {6}{3}{5}{54/55}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {54}{55}}
+\headcommand {\slideentry {6}{3}{6}{56/56}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {56}{56}}
+\headcommand {\beamer@sectionpages {27}{56}}
+\headcommand {\beamer@subsectionpages {47}{56}}
+\headcommand {\sectionentry {7}{Multiple Linear Model}{57}{Multiple Linear Model}{0}}
+\headcommand {\slideentry {7}{0}{1}{57/57}{}{0}}
+\headcommand {\beamer@framepages {57}{57}}
+\headcommand {\slideentry {7}{0}{2}{58/58}{}{0}}
+\headcommand {\beamer@framepages {58}{58}}
+\headcommand {\beamer@subsectionpages {57}{58}}
+\headcommand {\beamer@subsectionentry {0}{7}{1}{59}{Model}}
+\headcommand {\slideentry {7}{1}{1}{59/60}{Model}{0}}
+\headcommand {\beamer@framepages {59}{60}}
+\headcommand {\beamer@subsectionpages {59}{60}}
+\headcommand {\beamer@subsectionentry {0}{7}{2}{61}{Check Statistical Hypotheses of the Regression}}
+\headcommand {\slideentry {7}{2}{1}{61/61}{Check Statistical Hypotheses of the Regression}{0}}
+\headcommand {\beamer@framepages {61}{61}}
+\headcommand {\slideentry {7}{2}{2}{62/62}{Check Statistical Hypotheses of the Regression}{0}}
+\headcommand {\beamer@framepages {62}{62}}
+\headcommand {\slideentry {7}{2}{3}{63/63}{Check Statistical Hypotheses of the Regression}{0}}
+\headcommand {\beamer@framepages {63}{63}}
+\headcommand {\slideentry {7}{2}{4}{64/64}{Check Statistical Hypotheses of the Regression}{0}}
+\headcommand {\beamer@framepages {64}{64}}
+\headcommand {\slideentry {7}{2}{5}{65/66}{Check Statistical Hypotheses of the Regression}{0}}
+\headcommand {\beamer@framepages {65}{66}}
+\headcommand {\slideentry {7}{2}{6}{67/67}{Check Statistical Hypotheses of the Regression}{0}}
+\headcommand {\beamer@framepages {67}{67}}
+\headcommand {\slideentry {7}{2}{7}{68/69}{Check Statistical Hypotheses of the Regression}{0}}
+\headcommand {\beamer@framepages {68}{69}}
+\headcommand {\slideentry {7}{2}{8}{70/70}{Check Statistical Hypotheses of the Regression}{0}}
+\headcommand {\beamer@framepages {70}{70}}
+\headcommand {\slideentry {7}{2}{9}{71/71}{Check Statistical Hypotheses of the Regression}{0}}
+\headcommand {\beamer@framepages {71}{71}}
+\headcommand {\beamer@subsectionpages {61}{71}}
+\headcommand {\beamer@subsectionentry {0}{7}{3}{72}{Explanation of the Model}}
+\headcommand {\slideentry {7}{3}{1}{72/72}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {72}{72}}
+\headcommand {\slideentry {7}{3}{2}{73/73}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {73}{73}}
+\headcommand {\slideentry {7}{3}{3}{74/75}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {74}{75}}
+\headcommand {\slideentry {7}{3}{4}{76/77}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {76}{77}}
+\headcommand {\slideentry {7}{3}{5}{78/78}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {78}{78}}
+\headcommand {\slideentry {7}{3}{6}{79/79}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {79}{79}}
+\headcommand {\slideentry {7}{3}{7}{80/80}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {80}{80}}
+\headcommand {\slideentry {7}{3}{8}{81/81}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {81}{81}}
+\headcommand {\slideentry {7}{3}{9}{82/83}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {82}{83}}
+\headcommand {\slideentry {7}{3}{10}{84/84}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {84}{84}}
+\headcommand {\slideentry {7}{3}{11}{85/86}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {85}{86}}
+\headcommand {\slideentry {7}{3}{12}{87/88}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {87}{88}}
+\headcommand {\slideentry {7}{3}{13}{89/90}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {89}{90}}
+\headcommand {\slideentry {7}{3}{14}{91/91}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {91}{91}}
+\headcommand {\slideentry {7}{3}{15}{92/92}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {92}{92}}
+\headcommand {\slideentry {7}{3}{16}{93/94}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {93}{94}}
+\headcommand {\slideentry {7}{3}{17}{95/97}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {95}{97}}
+\headcommand {\slideentry {7}{3}{18}{98/98}{Explanation of the Model}{0}}
+\headcommand {\beamer@framepages {98}{98}}
+\headcommand {\beamer@sectionpages {57}{98}}
+\headcommand {\beamer@subsectionpages {72}{98}}
+\headcommand {\sectionentry {8}{Conclusions}{99}{Conclusions}{0}}
+\headcommand {\beamer@subsectionpages {99}{98}}
+\headcommand {\beamer@subsectionentry {0}{8}{1}{99}{Data Modeling}}
+\headcommand {\slideentry {8}{1}{1}{99/99}{Data Modeling}{0}}
+\headcommand {\beamer@framepages {99}{99}}
+\headcommand {\beamer@subsectionpages {99}{99}}
+\headcommand {\beamer@subsectionentry {0}{8}{2}{100}{Modeling}}
+\headcommand {\slideentry {8}{2}{1}{100/100}{Modeling}{0}}
+\headcommand {\beamer@framepages {100}{100}}
+\headcommand {\beamer@subsectionpages {100}{100}}
+\headcommand {\beamer@subsectionentry {0}{8}{3}{101}{Ways to improve the analysis}}
+\headcommand {\slideentry {8}{3}{1}{101/101}{Ways to improve the analysis}{0}}
+\headcommand {\beamer@framepages {101}{101}}
+\headcommand {\slideentry {8}{3}{2}{102/102}{Ways to improve the analysis}{0}}
+\headcommand {\beamer@framepages {102}{102}}
+\headcommand {\beamer@partpages {1}{102}}
+\headcommand {\beamer@subsectionpages {101}{102}}
+\headcommand {\beamer@sectionpages {99}{102}}
+\headcommand {\beamer@documentpages {102}}
+\headcommand {\gdef \inserttotalframenumber {58}}
