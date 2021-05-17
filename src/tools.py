@@ -15,17 +15,21 @@ from statsmodels.compat import lzip
 # End of Imports
 M=60
 
-def clean_sqft_basement(sqft):
-    if sqft =='?':
-        return mean
-    return float(sqft)
 
 def print_column_info(column):
+    """
+    Accepts 1 column from Pandas DataFrame
+    Prints out Column Name and the following info:
+        1) Unique values if the number of unique values smaller
+        or equal to 10, otherwise prints out the number of unique values
+        2) Count of every unique value
+        3) Number of Null Values
+    """
     print("^"*50)
     print(column.name)
     print("^"*50)
     number_of_unique = len(column.unique())
-    if number_of_unique > 10:
+    if number_of_unique > 10:# checks the number of unique values
         print(f"Column {column.name} has {number_of_unique} unique values")
     else:
         print(f"Unique values:\n {column.unique()}")
@@ -33,13 +37,21 @@ def print_column_info(column):
     print(f"Number of Null values:\n {column.isnull().sum()}")
 
 def drop_na(data, list_columns):
+    """
+    Accepts:
+        data = Pandas DataFrame
+        list_columns = list of target columns
+    For each column in the list_columns drops the NaN rows
+    Returns cleaned Pandas DataFrame
+    """
     for column in list_columns:
-        idx = data[data[column].isna()].index
-        data.drop(idx, inplace = True)
+        idx = data[data[column].isna()].index # indecies of the rows with NaN
+        data.drop(idx, inplace = True) # drop rows with NaN values
     
     return data
 
 def formula(df, target):
+    """"""
     columns = df.drop(target, axis=1).columns
     right_side = " + ".join(columns)
     return target + "~" + right_side
