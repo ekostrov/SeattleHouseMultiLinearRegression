@@ -1,6 +1,4 @@
 # Repository Structure
-
-Describe the structure of your repository and its contents, for example:
 ```
 ├── README.md                           <- The top-level README for reviewers of this project
 ├── JupyterNotebooks/Jupyter.ipynb      <- Narrative documentation of analysis in Jupyter notebook
