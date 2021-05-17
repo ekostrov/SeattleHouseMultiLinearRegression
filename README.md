@@ -142,5 +142,5 @@ I used the following steps:
 
 Please review my full analysis in [our Jupyter Notebook](JupyterNotebooks/Jupyter.ipynb) or our [presentation](presentation.pdf).
 
-For any additional questions, please contact **Yevgeniy (Gene) Kostrov & ekostrov@yahoo.com
+For any additional questions, please contact Yevgeniy (Gene) Kostrov & ekostrov@yahoo.com
 
