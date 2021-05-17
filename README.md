@@ -1,11 +1,6 @@
-![title_picture](images/seattle.jpg)
-# Linear Regression Analysis of the Kings County's (Seattle, WA) House Market by
-** By Yevgeniy Kostrov
-***
 # Repository Structure
 
 Describe the structure of your repository and its contents, for example:
-
 ```
 ├── README.md                           <- The top-level README for reviewers of this project
 ├── JupyterNotebooks/Jupyter.ipynb      <- Narrative documentation of analysis in Jupyter notebook
@@ -13,6 +8,10 @@ Describe the structure of your repository and its contents, for example:
 ├── data                                <- Both sourced externally 
 └── images                              <- Both sourced externally and generated from code
 ```
+![title_picture](images/seattle.jpg)
+# Linear Regression Analysis of the Kings County's (Seattle, WA) House Market by
+** By Yevgeniy Kostrov
+***
 
 # Overview
 The purpose of this project is to analyze a data set containing data 
